@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="AssetExchange.css" />
+  </head>
+  <body>
+    <div class="CALENDAR">
+      <div class="div">
+        <div class="overlap">
+          <div class="text-wrapper">AssetEx.</div>
+          <img class="image" src="Image_20240530_002818_747 2.png" />
+        </div>
+        <p class="p">
+          The ultimate tool designed to help you approve assets and collaborate effortlessly, wherever you are.
+        </p>
+        <div class="text-wrapper-2">Approve Assets On-the-Go!</div>
+        <p class="text-wrapper-3">
+          Approve, revise, and manage your assets from anywhere with just a swipe,faster and more intuitive than ever.
+        </p>
+        <div class="text-wrapper-4">Reminders?</div>
+        <div class="text-wrapper-5">Built in Portfolio?</div>
+        <div class="text-wrapper-6">Project Folder Creation?</div>
+        <div class="overlap-group">
+        
+          <p class="WE-GOT-IT-ALL"><span class="span">WE GOT IT </span> <span class="text-wrapper-7">ALL!</span></p>
+        </div>
+        <p class="with-asset-exchange">
+          With Asset Exchange, you can approve or request changes to assets with a simple swipe! Whether you&#39;re on
+          the train, at the office, or working remotely, managing your projects has never been this easy.
+        </p>
+        <p class="text-wrapper-8">Showcase Your Work with Portfolio feature</p>
+        <p class="text-wrapper-9">Dont Miss out the hype! Download now</p>
+        <p class="text-wrapper-10">
+          Turn your project folders into a sleek portfolio. Share access with clients or collaborators to let them view,
+          comment, and approve your work—making it easier than ever to display your assets professionally.
+        </p>
+        <p class="text-wrapper-11">Stay in Control with Powerful Version Tracking</p>
+        <p class="text-wrapper-12">
+          Easily track changes and revert to previous versions with our built-in version control. Every revision is
+          stored, so you can review and restore earlier work with just a tap—no need to worry about losing progress or
+          missing updates.
+        </p>
+
+        <div class="group">
+          <button class="btn_download"><div class="text-wrapper-13">Download Asset Exchange now</div></button>
+        </div>
+
+        <div>
+        <img class="folder-view" src="Folder view.png" />
+        </div>
+        <div>
+        <img class="task-without" src="Task without calendar weekly.png" />
+        </div>
+        <div>
+        <img class="logo-view" src="Frame 34510.png" />
+        </div>
+        <div>  
+        <img class="when-the-image-is" src="when the image is swiped up 1.png" />
+        </div>
+        <div>
+        <img class="who-can-acess" src="Who can acess 1.png" />
+        </div>
+        <div>
+        <img class="img" src="Frame 34510.png" />
+        </div>
+        <div>
+        <img class="DASHBOARD" src="DASHBOARD.png" />
+        </div>
+
+        <button class="store-download">
+          <img class="playstore" src="Playstore.png" />
+          <div class="content">
+            <div class="subtext">GET IT ON</div>
+            <img class="path" src="path90.png" />
+          </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script>
+        const folder_view_animations = new IntersectionObserver((customEntries) => {
+            customEntries.forEach((customEntry) => {
+                console.log(customEntry);
+                if (customEntry.isIntersecting) {
+                    customEntry.target.classList.add('folder-view-animations');
+                } else {
+                    customEntry.target.classList.remove('folder-view-animations');
+                }
+            });
+        });
+    
+        const customElements = document.querySelectorAll('.folder-view');
+        customElements.forEach((element) => folder_view_animations.observe(element));
+    </script>
+
+    
+
+
+<script>
+    const task_without_animations = new IntersectionObserver((customEntries2) => {
+        customEntries2.forEach((customEntry2) => {
+            console.log(customEntry2);
+            if (customEntry2.isIntersecting) {
+                customEntry2.target.classList.add('task-without-animations');
+            } else {
+                customEntry2.target.classList.remove('task-without-animations');
+            }
+        });
+    });
+
+    const customElements2 = document.querySelectorAll('.task-without');
+    customElements2.forEach((element2) => task_without_animations.observe(element2));
+</script>
+
+
+
+
+
+<script>
+    const logo_view_animations = new IntersectionObserver((customEntries3) => {
+        customEntries3.forEach((customEntry3) => {
+            console.log(customEntry3);
+            if (customEntry3.isIntersecting) {
+                customEntry3.target.classList.add('logo-view-animations');
+            } else {
+                customEntry3.target.classList.remove('logo-view-animations');
+            }
+        });
+    });
+
+    const customElements3 = document.querySelectorAll('.logo-view');
+    customElements3.forEach((element3) => logo_view_animations.observe(element3));
+</script>
+
+
+
+
+
+<script>
+    const when_the_image_is_animations = new IntersectionObserver((customEntries4) => {
+        customEntries4.forEach((customEntry4) => {
+            console.log(customEntry4);
+            if (customEntry4.isIntersecting) {
+                customEntry4.target.classList.add('when-the-image-is-animations');
+            } else {
+                customEntry4.target.classList.remove('when-the-image-is-animations');
+            }
+        });
+    });
+
+    const customElements4 = document.querySelectorAll('.when-the-image-is');
+    customElements4.forEach((element4) => when_the_image_is_animations.observe(element4));
+</script>
+
+
+
+
+<script>
+    const who_can_acess_animations = new IntersectionObserver((customEntries5) => {
+        customEntries5.forEach((customEntry5) => {
+            console.log(customEntry5);
+            if (customEntry5.isIntersecting) {
+                customEntry5.target.classList.add('who-can-acess-animations');
+            } else {
+                customEntry5.target.classList.remove('who-can-acess-animations');
+            }
+        });
+    });
+
+    const customElements5 = document.querySelectorAll('.who-can-acess');
+    customElements5.forEach((element5) => who_can_acess_animations.observe(element5));
+</script>
+
+
+
+
+
+<script>
+    const img_animations = new IntersectionObserver((customEntries6) => {
+        customEntries6.forEach((customEntry6) => {
+            console.log(customEntry6);
+            if (customEntry6.isIntersecting) {
+                customEntry6.target.classList.add('img-animations');
+            } else {
+                customEntry6.target.classList.remove('img-animations');
+            }
+        });6
+    });
+
+    const customElements6 = document.querySelectorAll('.img');
+    customElements6.forEach((element6) => img_animations.observe(element6));
+</script>
+
+
+
+
+
+<script>
+    const DASHBOARD_animations = new IntersectionObserver((customEntries7) => {
+        customEntries7.forEach((customEntry7) => {
+            console.log(customEntry7);
+            if (customEntry7.isIntersecting) {
+                customEntry7.target.classList.add('DASHBOARD-animations');
+            } else {
+                customEntry7.target.classList.remove('DASHBOARD-animations');
+            }
+        });
+    });
+
+    const customElements7 = document.querySelectorAll('.DASHBOARD');
+    customElements7.forEach((element7) => DASHBOARD_animations.observe(element7));
+</script>
+
+
+
+
+  </body>
+</html>
