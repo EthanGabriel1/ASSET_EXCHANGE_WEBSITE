@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SKupcoming.css">
+    <link rel="icon" href="sk-calamba-logo-no-bg.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
+    <title>SK Calamba Council</title>
+</head>
+<body>
+    <div class="_upper_section">
+        <nav>
+            <a href="home.html">
+                <div class="logo">
+                    <img src="sk-calamba-logo-no-bg.png">
+                    <p>Sangguniang Kabataan</p>
+                </div>
+            </a>
+            
+            <ul class="right-nav">
+                <a href="gallery.html"><li>Gallery</li></a>
+                <a href="SK-ABOUTUS.html"><li>About Us</li></a>
+                <a href="SKMILESTONE.html"><li>Milestone</li></a>
+                <a href="SKupcoming.html"><li class="li-pink">Upcoming</li></a>
+            </ul>
+            <div class="hamburger">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </div>
+            <script src="navbar.js"></script>
+        </nav>
+        <img src="www.reallysite 1.png" class="reallysite1">
+        <img src="www.reallysite 2.png" class="reallysite2">
+        <div class="_upper_section-div">
+            <h1>UPCOMING PLATFORMS</h1>
+        </div>
+    </div>
+    <div class="_lower_section">
+        <div class="_lower_section-div">
+            <p class="pc-txt">
+                <strong>KK Assembly</strong><br><br>
+                Semi-annual gathering of the<br> youth to report on the<br> activities of the council<br><br>
+                <i><strong>pending</strong></i><br><br>
+            </p>
+            <p class="mobile-txt">
+                <strong>KK Assembly</strong><br><br>
+                Semi-annual gathering of the youth to report on the activities of the council.
+                <br><br>
+                <i><strong>pending</strong></i><br><br>
+            </p>
+        </div>
+        <img src="kk-assembly.png" class="kk-assembly"/>
+    </div>
+    <img src="upcoming-twirly.png" class="upcoming-twirly">
+    <div class="_basketball-clinic">
+        <div class="_basketball-clinic-div">
+            <p class="basketball-p pc-txt">
+                    <strong>Basketball Clinic for youth<br></strong>
+                A small basketball clinic to<br> improve the skills of the youth<br> to brighten their future in<br> basketball.<br><br>
+                Sponsored by Kons Dondon<br> Hontiveros’ office<br><br>
+                <strong><i>pending</i></strong>
+            </p>
+            <p class="basketball-p mobile-txt">
+            <strong>Basketball Clinic for youth</strong>
+            <br><br>
+            A small basketball clinic to improve the skills of the youth to brighten their future in basketball.
+            <br><br>
+            Sponsored by Kons Dondon Hontiveros’ office
+            <br><br>
+            <strong><i>pending</i></strong>
+        </p>
+      </div>
+      <img src="basketball-clinic.png" class="basketclinic">
+    </div>
+    <footer class="footer">
+        <div class="blue-worm"></div>
+        <div class="footer-contacts">
+            <h1><span>Contact</span> Us</h1>
+            <ul class="list-contacts">
+                <a href="https://www.facebook.com/profile.php?id=61554902276375&mibextid=ZbWKwL"><li><img src="fb-white.png"> Sangguniang Kabataan - Barangay Calamba 2023 - 2025</li></a>
+                <li class="_border-left-white"></li>
+                <a  href="#"><li><img src="At sign.png"> sk.chairperson.calamba@gmail.com</li></a>
+                <li class="_border-left-white"></li>
+                <a href="#"><li><img src="Call.png"> +639760812534</li></a>
+                <li class="_border-left-white"></li>
+                <a href="#"><li><img src="Location.png"> Barangay Calamba 6000 Cebu City, Philippines</li></a>
+                <li class="_border-bottom-white"></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    const _lower_sectiondiv = new IntersectionObserver((customEntries) => {
+        customEntries.forEach((customEntry) => {
+            console.log(customEntry);
+            if (customEntry.isIntersecting) {
+                customEntry.target.classList.add('_lower_sectiondivanimation');
+            } else {
+                customEntry.target.classList.remove('_lower_sectiondivanimation');
+            }
+        });
+    });
+
+    const customElements = document.querySelectorAll('._lower_section-div');
+    customElements.forEach((element) => _lower_sectiondiv.observe(element));
+</script>
+
+
+
+<script>
+    const kkassembly = new IntersectionObserver((customEntries2) => {
+        customEntries2.forEach((customEntry2) => {
+            console.log(customEntry2);
+            if (customEntry2.isIntersecting) {
+                customEntry2.target.classList.add('kkassemblyanimation');
+            } else {
+                customEntry2.target.classList.remove('kkassemblyanimation');
+            }
+        });
+    });
+
+    const customElements2 = document.querySelectorAll('.kk-assembly');
+    customElements2.forEach((element2) => kkassembly.observe(element2));
+</script>
+
+
+
+<script>
+    const _basketballclinicdiv = new IntersectionObserver((customEntries3) => {
+        customEntries3.forEach((customEntry3) => {
+            console.log(customEntry3);
+            if (customEntry3.isIntersecting) {
+                customEntry3.target.classList.add('_basketballclinicdivanimation');
+            } else {
+                customEntry3.target.classList.remove('_basketballclinicdivanimation');
+            }
+        });
+    });
+
+    const customElements3 = document.querySelectorAll('._basketball-clinic-div');
+    customElements3.forEach((element3) => _basketballclinicdiv.observe(element3));
+</script>
+
+
+
+<script>
+    const basketclinic = new IntersectionObserver((customEntries4) => {
+        customEntries4.forEach((customEntry4) => {
+            console.log(customEntry4);
+            if (customEntry4.isIntersecting) {
+                customEntry4.target.classList.add('basketclinicanimation');
+            } else {
+                customEntry4.target.classList.remove('basketclinicanimation');
+            }
+        });
+    });
+
+    const customElements4 = document.querySelectorAll('.basketclinic');
+    customElements4.forEach((element4) => basketclinic.observe(element4));
+</script>
+
+
+
+</body>
+</html>

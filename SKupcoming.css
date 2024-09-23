@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  
+  } 
+  .top-section{
+    width: 100%;
+    height: calc(100vh - 5vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    width: 100%;
+    height:5vw;
+    position: absolute;
+    top: 0;
+  }
+  .hamburger{
+  display: none;
+  }
+  .bar{
+  width: 4vw;
+  height: 0.5vw;
+  border-radius: 2vw;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 0.7vw auto;
+  display: block;
+  }
+  nav a{
+  text-decoration: none;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+  }
+  .logo p{
+    font-size: 1.5vw;
+    font-family: "Bayon", sans-serif;
+    color: #000;
+  }
+  .logo img{
+    width: 4vw;
+  }
+  .right-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 1vw;
+  }
+  .right-nav a{
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .right-nav a:active{
+    color: #7E30E1;
+  }
+  .right-nav li{
+    display: block;
+    font-size: 1.2vw;
+    font-family: "Inter",sans-serif;
+  }
+  .li-pink{
+    border-radius: 5vw;
+    padding: .5vw 1vw ;
+    border: .1vw solid ;
+    background: linear-gradient(96deg, #FF89D7 0%, #7E30E1 137.27%);
+    box-shadow: 0px 4px 11.1px 0px rgba(0, 0, 0, 0.23);
+  }
+  .li-pink:hover{
+    background-color: transparent;
+    background: none;
+    border:.1vw solid ;
+  }
+  ._upper_section{
+    display: flex;
+    padding: 6%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reallysite1 {
+    position: absolute;
+    width: 36%;
+    right: 0;
+    top: -2vh;
+    z-index: -1;
+  }
+  /*pc & mobile txt*/
+  .pc-txt{
+    display: block;
+  }
+  .mobile-txt{
+    display: none;
+  }
+  /*---------------*/
+  .reallysite2 {
+    position: absolute;
+    width: 39%;
+    left: -4vw;
+    top: -2vw;
+    z-index: -2;
+  }
+  
+  ._upper_section div h1{
+    font-family: "Bayon", sans-serif;
+    font-weight: 400;
+    color: #484848;
+    font-size: 5.5vw;
+    margin-left: -5vh;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  ._lower_section{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4% 8%;
+    position: relative;
+  }
+  ._lower_section-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding-left: 6vw;
+    transform: translateX(-20%);
+    opacity: 0;
+    filter: brightness(0%);
+    transition: all 1.5s ease;
+  }
+  
+  ._lower_sectiondivanimation {
+    transform: translateX(0%);
+    opacity: 1;
+    filter: brightness(100%);
+  }
+  
+  
+  ._lower_section div p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.8vw;
+    margin-right: -14vh;
+    color: #1a1a1a;
+    width: 100%;
+  }
+  
+  .kk-assembly {
+    width: 50%;
+    height: 100%;
+    transform: translateX(15%);
+    opacity: 0;
+    filter: blur(2px);
+    transition: transform 1.5s ease, opacity 1.5s ease, filter 1.5s ease, scale 0.3s ;
+  }
+  
+  .kkassemblyanimation {
+    transform: translateX(0%);
+    opacity: 1;
+    filter: blur(0);
+  }
+  
+  
+  .kk-assembly:hover {
+    scale: 1.1;
+  }
+  
+  ._basketball-clinic{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4% 8%;
+    align-items: center;
+  }
+  ._basketball-clinic-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    transform: translateX(15%);
+    opacity: 0;
+    filter: brightness(0%);
+    transition: all 1.5s ease;
+  }
+  
+  
+  ._basketballclinicdivanimation {
+    transform: translateX(0%);
+    opacity: 1;
+    filter: brightness(100%);
+  }
+  
+  
+  .basketball-p{
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.8vw;
+    color: #1a1a1a;
+  }
+  
+  .basketclinic {
+    width: 50%;
+    height: fit-content;
+    transform: translateX(-20%);
+    opacity: 0;
+    filter: blur(2px);
+    transition: transform 1.5s ease, opacity 1.5s ease, filter 1.5s ease, scale 0.3s ;
+  }
+  
+  .basketclinicanimation {
+    transform: translateX(0%);
+    opacity: 1;
+    filter: blur(0);
+  }
+  
+  .basketclinic:hover {
+    scale: 1.1;
+  }
+  
+  .upcoming-twirly {
+    position: absolute;
+    width: 100%;
+    top: -11%;
+    z-index: -3;
+  }
+  
+  .footer{
+    width: 100%;
+    height: 35vw;
+    background-color: #E26EE5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    padding: 8%;
+  }
+  .blue-worm{
+    background-image: url(wormblue4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    width: 60%;
+    right: 0;
+    height: 100%;
+    position: absolute;
+  }
+  .footer-contacts h1{
+    font-size: 4vw;
+    font-family: "Bayon", sans-serif;
+  }
+  .footer-contacts h1 span{
+    color:#642FA7;
+    font-family: "Bayon", sans-serif;
+  }
+  .list-contacts{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    list-style: none;
+  }
+  .list-contacts a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .list-contacts li{
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+  }
+  .list-contacts li img{
+    width: 3vw;
+  }
+  ._border-left-white{
+    border-left: 2px solid #fff;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+  ._border-bottom-white{
+    border-bottom: 2px solid #fff;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+  }
+  .list-contacts li {
+    height: 2vw;
+  }
+  
+  
+  .worm2blue {
+    position: absolute;
+    left: 0%;
+    top: -7%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .wormblue2 {
+    position: absolute;
+    left: 0%;
+    top: -15%;
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .wormblue3 {
+    position: absolute;
+    left: 0%;
+    top: -5%;
+    width: 80%;
+    height: fit-content;
+    z-index: -3;
+  }
+  @media only screen and (max-width: 752px) {
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(1.3vw) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-1.3vw) rotate(-45deg);
+    }
+    .right-nav{
+        position: fixed;
+        left: 0;
+        top: -100%;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .right-nav.active{
+        top: 10vw;
+    }
+    .right-nav a{
+        width: 100%;
+        height: 15vw;
+        
+    }
+    .right-nav li{
+        width: 100%;
+        height: 100%;
+        padding: 5vw;
+        font-size: 4vw;
+        background-color: #8B2CF5;
+        color: #fff;
+    }
+    .right-nav li:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .li-pink{
+        background: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .li-pink:hover{
+        background: none;
+        border: none;
+    }
+    nav{
+        padding: 3%;
+        background-color: #8B2CF5;
+        height: fit-content;
+        position: fixed;
+        z-index: 5;
+    }
+    .logo p{
+        font-size: 3vw;
+        color: #fff;
+    }
+    .logo img{
+        width: 5vw;
+    }
+  
+    ._upper_section div h1{
+      font-size: 8vw;
+      width: fit-content;
+      text-align: center;
+      margin: 0;
+    }
+    ._basketball-clinic,
+    ._lower_section{
+      flex-direction: column-reverse;
+    }
+    ._upper_section-div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      ;
+    }
+    ._upper_section-div, 
+    .kk-assembly,
+    .basketclinic,
+    ._basketball-clinic-div,
+    ._lower_section-div,
+    .basketball-p{
+      width: 100%;
+    }
+    ._basketball-clinic-div{
+      padding: 6vw;
+    }
+    ._lower_section div p{
+      padding: 0;
+    }
+    .basketball-p,
+    ._lower_section div p{
+      font-size: 3vw;
+    }
+    .pc-txt{
+      visibility: collapse;
+      display: none;
+    }
+    .mobile-txt{
+      display: block;
+    }
+    .footer-contacts h1,
+    .footer-contacts h1 span{
+        font-size: 10vw;
+        z-index: 2;
+    }
+    .footer-contacts{
+        width: 100%;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .list-contacts li{
+        font-size: 2.5vw;
+        padding: 3vw 0;
+    }
+    .list-contacts li img{
+        width: 6vw;
+    }
+    .blue-worm{
+        visibility: collapse;
+    }
+    ._border-left-white{
+        margin-left: 3vw;
+        border-left: .5vw solid #fff;
+    }
+    ._border-bottom-white{
+        margin-left: 3vw;
+        border-bottom: .5vw solid #fff;
+    }
+  }    

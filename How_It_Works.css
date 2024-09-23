@@ -1,0 +1,504 @@
+.CALENDAR {
+    background-image: url(CALENDAR\ \(1\)\ 1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .CALENDAR .div {
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 4676px;
+    position: relative;
+  }
+  
+  .CALENDAR .overlap {
+    position: absolute;
+    width: 1255px;
+    height: 614px;
+    top: 4062px;
+    left: 93px;
+  }
+  
+  .CALENDAR .ellipse {
+    position: absolute;
+    width: 824px;
+    height: 530px;
+    top: 84px;
+    left: 228px;
+    background-color: #f45522;
+    border-radius: 412px/265px;
+    filter: blur(700px);
+  }
+  
+  .CALENDAR .img {
+    position: absolute;
+    width: 1255px;
+    height: 430px;
+    top: 184px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .CALENDAR .store-download {
+    position: absolute;
+    width: 315px;
+    height: 105px;
+    top: 0;
+    left: 485px;
+    background-color: #000000;
+    border-radius: 15.75px;
+    overflow: hidden;
+    border: 2.62px solid;
+    border-color: #a6a6a6;
+  }
+  
+  .CALENDAR .playstore {
+    position: absolute;
+    width: 55px;
+    height: 63px;
+    top: 21px;
+    left: 21px;
+  }
+  
+  .CALENDAR .content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7.88px;
+    position: absolute;
+    top: 13px;
+    left: 94px;
+  }
+  
+  .CALENDAR .subtext {
+    position: relative;
+    align-self: stretch;
+    margin-top: -2.62px;
+    font-family: "Product Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 26.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CALENDAR .path {
+    position: relative;
+    width: 194.25px;
+    height: 39.38px;
+  }
+  
+  .CALENDAR .overlap-group {
+    position: absolute;
+    width: 1517px;
+    height: 170px;
+    top: -40px;
+    left: -25px;
+    background-color: #101213;
+    border: 1px solid;
+    border-color: #7b7b7b;
+  }
+  
+  .CALENDAR .text-wrapper {
+    position: absolute;
+    top: 84px;
+    left: 450px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #dbdbdb;
+    font-size: 40.8px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-2 {
+    position: absolute;
+    top: 93px;
+    left: 666px;
+    background: linear-gradient(180deg, rgb(255, 73, 45) 0%, rgb(255, 47, 76) 45.82%, rgb(255, 124, 165) 84.82%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 25.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-3 {
+    position: absolute;
+    top: 93px;
+    left: 869px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #dbdbdb;
+    font-size: 25.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-4 {
+    position: absolute;
+    top: 93px;
+    left: 998px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #dbdbdb;
+    font-size: 25.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .image {
+    position: absolute;
+    width: 66px;
+    height: 62px;
+    top: 78px;
+    left: 347px;
+  }
+  
+  .CALENDAR .text-wrapper-5 {
+    position: absolute;
+    top: 201px;
+    left: 443px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #dbdbdb;
+    font-size: 78.2px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .on-state {
+    position: absolute;
+    width: 280px;
+    height: 605px;
+    top: 411px;
+    left: 116px;
+  }
+  
+  .CALENDAR .text-wrapper-6 {
+    position: absolute;
+    width: 473px;
+    top: 446px;
+    left: 682px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 73.11, 43.78) 0%,
+      rgb(255, 43.56, 72.66) 49.4%,
+      rgb(255, 173.19, 221.01) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 56.3px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CALENDAR .to-get-started-with {
+    position: absolute;
+    width: 514px;
+    top: 707px;
+    left: 682px;
+    font-family: "Roboto-Light", Helvetica;
+    font-weight: 400;
+    color: #bababa;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 29.1px;
+  }
+  
+  .CALENDAR .span {
+    font-weight: 300;
+  }
+  
+  .CALENDAR .text-wrapper-7 {
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+  }
+  
+  .CALENDAR .text-wrapper-8 {
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .CALENDAR .text-wrapper-9 {
+    top: 588px;
+    position: absolute;
+    left: 682px;
+    font-family: "Roboto-CondensedBold Italic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #ff482d;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 58.2px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-10 {
+    position: absolute;
+    top: 655px;
+    left: 682px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff482d;
+    font-size: 29.8px;
+    letter-spacing: 0;
+    line-height: 34.7px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-11 {
+    top: 1259px;
+    position: absolute;
+    width: 473px;
+    left: 682px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 73.11, 43.78) 0%,
+      rgb(255, 43.56, 72.66) 49.4%,
+      rgb(255, 173.19, 221.01) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 56.3px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CALENDAR .after-logging-in-you {
+    position: absolute;
+    width: 514px;
+    top: 1520px;
+    left: 682px;
+    font-family: "Roboto-Light", Helvetica;
+    font-weight: 300;
+    color: #bababa;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 29.1px;
+  }
+  
+  .CALENDAR .text-wrapper-12 {
+    top: 1401px;
+    position: absolute;
+    left: 682px;
+    font-family: "Roboto-CondensedBold Italic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #ff482d;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 58.2px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-13 {
+    position: absolute;
+    top: 1468px;
+    left: 682px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff482d;
+    font-size: 29.8px;
+    letter-spacing: 0;
+    line-height: 34.7px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-14 {
+    top: 2133px;
+    position: absolute;
+    width: 473px;
+    left: 682px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 73.11, 43.78) 0%,
+      rgb(255, 43.56, 72.66) 49.4%,
+      rgb(255, 173.19, 221.01) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 56.3px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CALENDAR .discover-assetex-for {
+    position: absolute;
+    width: 514px;
+    top: 2394px;
+    left: 682px;
+    font-family: "Roboto-Light", Helvetica;
+    font-weight: 400;
+    color: #bababa;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 29.1px;
+  }
+  
+  .CALENDAR .text-wrapper-15 {
+    top: 2275px;
+    position: absolute;
+    left: 682px;
+    font-family: "Roboto-CondensedBold Italic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #ff482d;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 58.2px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-16 {
+    position: absolute;
+    top: 2342px;
+    left: 682px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff482d;
+    font-size: 29.8px;
+    letter-spacing: 0;
+    line-height: 34.7px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-17 {
+    top: 2956px;
+    position: absolute;
+    width: 473px;
+    left: 682px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 73.11, 43.78) 0%,
+      rgb(255, 43.56, 72.66) 49.4%,
+      rgb(255, 173.19, 221.01) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 56.3px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CALENDAR .if-you-need {
+    position: absolute;
+    width: 514px;
+    top: 3217px;
+    left: 682px;
+    font-family: "Roboto-Light", Helvetica;
+    font-weight: 400;
+    color: #bababa;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 29.1px;
+  }
+  
+  .CALENDAR .text-wrapper-18 {
+    top: 3098px;
+    position: absolute;
+    left: 682px;
+    font-family: "Roboto-CondensedBold Italic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #ff482d;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 58.2px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .text-wrapper-19 {
+    position: absolute;
+    top: 3165px;
+    left: 682px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff482d;
+    font-size: 29.8px;
+    letter-spacing: 0;
+    line-height: 34.7px;
+    white-space: nowrap;
+  }
+  
+  .CALENDAR .task-without {
+    position: absolute;
+    width: 280px;
+    height: 606px;
+    top: 1201px;
+    left: 116px;
+  }
+  
+  .CALENDAR .when-the-image-is {
+    position: absolute;
+    width: 284px;
+    height: 614px;
+    top: 2056px;
+    left: 114px;
+  }
+  
+  .CALENDAR .settings {
+    position: absolute;
+    width: 284px;
+    height: 627px;
+    top: 2832px;
+    left: 114px;
+  }
+  
+  .CALENDAR .ASSET-EXCHANGE {
+    position: absolute;
+    width: 1114px;
+    top: 3626px;
+    left: 178px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 73.11, 43.78) 0%,
+      rgb(255, 43.56, 72.66) 49.4%,
+      rgb(255, 173.19, 221.01) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 95.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
