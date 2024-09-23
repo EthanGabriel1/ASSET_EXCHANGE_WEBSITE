@@ -193,7 +193,7 @@ body {
     justify-content: center;
     position: absolute;
     width: calc(100vw - 270px);
-    height: 1210px;
+    height: 65vw;
     top: 0;
     left: 247px; /* Adjusted to match the width of the sidenav */
     background-color: #fbfbfb;
@@ -204,7 +204,7 @@ body {
 
 .main_content_img {
     position: relative;
-    width: 1500px;
+    width: 80vw;
     left: 40px;
     top: 40px;
 }
