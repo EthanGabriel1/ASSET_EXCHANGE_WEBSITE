@@ -90,8 +90,6 @@
   .ic_settings {
     height: 40px;
   }
-
-
   
   
   /* Sidebar styling */
@@ -168,190 +166,25 @@
 
   
 
-.upper_part {
-    width: 100%;
-    display: flex;
-}
-
-.add_folder_container {
-    outline: 1px blue solid;
-    width: 500px;
-}
-
-.add_folder_container img{
-    width: 100%;
+  .main_content_img {
+    position: relative;
+    width: 83vw;
+    height: 60vw;
+    top: 40px;
 }
 
 
-.all_asset_container {
-    width: 460px;
-    outline: 1px violet solid;
-}
-
-
-.card {
-    margin-top: 8px;
-    width: 430px;
-    height: 300px;
-    outline: #8A8A8A 2px solid;
-    background-color: white;
-    border-radius: 50px;
-    padding: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
-  
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  
-  .icon-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card-icon {
-    position: relative;
-    left: -40px;
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-  }
-  
-  .card-title {
-    position: relative;
-    top: -7px;
-    color: #3D3D3D;;
-    font-size: 38px;
-    font-weight: bold;
-    margin-top: 8px;
-  }
-  
-  .kebab-menu {
-    font-size: 44px;
-    padding-right: 5px;
-    cursor: pointer;
-  }
-  
-  .card-content {
-    margin-top: 10px;
-  }
-  
-  .text-line {
-    height: 30px;
-    background-color: #e0e0e0;
-    margin-bottom: 8px;
-    width: 100%;
-  }
-  
-  .text-line-2 {
-    height: 30px;
-    background-color: #e0e0e0;
-    margin-bottom: 8px;
-    width: 75%;
-  }
-
-  .text-line-3 {
-    height: 30px;
-    background-color: #e0e0e0;
-    margin-bottom: 8px;
-    width: 50%;
-  }
 
 
 
 
-/* TABLE */
-.table-container {
-    position: relative;
-    outline: 1px red solid;
-    max-width: 980px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  thead th {
-    text-align: left;
-    font-size: 20px;
-    padding-bottom: 10px;
-    color: #666;
-    padding-left: 15px;
-  }
-  
-  .th-date {
-    text-align: left;
-    font-size: 20px;
-    padding-bottom: 10px;
-    color: #666;
-    padding-left: 45px;
-  }
-  
-  .th-filesize {
-    position: relative;
-    left: -85px;
-    text-align: left;
-    font-size: 20px;
-    padding-bottom: 10px;
-    color: #666;
-  }
-  
-  .td-5MB {
-    position: relative;
-    left: -70px;
-    text-align: left;
-    padding-left: 15px;
-   }
-
-  
-.asset-name {
-    color: #AD0000;
-    padding: 15px 0;
-    font-size: 20px;
-    vertical-align: middle;
-}
 
 
-  tbody td {
-    padding: 15px 0;
-    font-size: 20px;
-    vertical-align: middle;
-  }
-  
-  td img.file-icon {
-    width: 35px;
-    height: 35px;
-    vertical-align: middle;
-  }
-  
-  td img.user-avatar {
-    position: relative;
-    right: -35px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    object-fit: cover;
-    display: block;
-  }
-  
-  tbody td {
-    text-align: left;
-    padding-left: 15px;
-  }
-  
-  tbody td:last-child {
-    text-align: center;
-  }
-  
-  th, td {
-    padding-left: 15px;
-  }
-  
+
+
+
+
+
 
 
 
