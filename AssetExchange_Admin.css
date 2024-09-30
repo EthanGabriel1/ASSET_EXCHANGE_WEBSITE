@@ -23,7 +23,7 @@ body {
   align-items: center;
   background-color: rgba(242, 240, 238, 0.8);
   backdrop-filter: blur(5px);
-  padding: 25px 20px;
+  padding: 20px 15px;
   z-index: 1100;
 }
 
@@ -155,7 +155,7 @@ body {
 .main-content {
   flex-grow: 1;
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
   margin-left: 260px; /* Push content to the right of the sidebar */
   margin-top: 120px; /* Ensure content starts below the navbar */
   border-top-left-radius: 70px;
@@ -164,8 +164,8 @@ body {
 
 
 .upper_part {
+  width: 100%;
   display: flex;
-  
 }
 
 
@@ -467,6 +467,12 @@ body {
   transition: transform 0.3s;
 }
 
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .chart:hover {
   transform: scale(0.95);
 }
@@ -685,7 +691,7 @@ body {
 
   .charts {
     padding: 50px;
-   grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr); /* Stack cards */
   }
 
 
@@ -810,6 +816,7 @@ body {
   }
 
   .card {
+    grid-template-columns: repeat(1, 1fr);
     flex: 0 0 auto; /* Prevent the cards from shrinking */
     width: 300px; /* Adjust the card width to fit */
   }
