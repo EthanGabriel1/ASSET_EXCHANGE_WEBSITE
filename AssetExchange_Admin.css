@@ -423,14 +423,17 @@ body {
 
 .tag-container {
   margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
+  display: flex;  /* Keep display as flex */
+  justify-content: space-between; /* Ensure equal spacing */
+  align-items: center; /* Center items vertically */
+  white-space: nowrap; /* Prevent wrapping of tags */
 }
 
+
+
 .tag {
-  width: 300px;
+  margin-right: 10px; /* Add some space between tags */
+  width: 100%;
   height: 45px;
   background-color: #f4f4f4;
   padding: 10px 20px;
@@ -438,11 +441,15 @@ body {
   border: 1px solid #ddd;
   font-size: 20px;
   color: #333;
-  white-space: nowrap;
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+.tag:last-child {
+  margin-right: 0; /* Remove margin for the last tag */
+}
+
 
 .tag:hover {
   background-color: #ddd;
@@ -464,6 +471,7 @@ body {
   padding: 20px;
   border-radius: 15px;
   width: 100%;
+  height: 400px;
   transition: transform 0.3s;
 }
 
@@ -478,25 +486,28 @@ canvas {
 }
 
 .bar_chart-container {
-  margin-top: 40px;
+  margin-top: 10px;
   width: 100%;
 }
 
 
 .storage-container {
-  margin-top: -60px;
+  margin-top: -90px;
+  cursor: pointer;
 }
 
 
 .bar-chart-img {
   width: 100%;
-  height: 350px;
+  height: 260px;
 }
 
 
 .storage-img {
+  position: relative;
+  bottom: -40px;
   width: 100%;
-  height: 450px;
+  height: 260px;
 }
 
 
@@ -512,6 +523,8 @@ canvas {
 
 
 .grey-txt-storage {
+  position: relative;
+  bottom: -60px;
   color: #AAA;
   font-family: "Inter", Helvetica;
   font-size: 28.347px;
@@ -547,6 +560,8 @@ canvas {
 }
 
 .TB {
+  position: relative;
+  bottom: -60px;
   color: #111;
   font-family: "Inter", Helvetica;
   font-size: 48.362px;
@@ -580,6 +595,11 @@ canvas {
   padding: 20px;
   border-radius: 15px;
   width: 520px;
+  transition: transform 0.3s;
+}
+
+.chart_1:hover {
+  transform: scale(0.95);
 }
 
 .chart_2 {
@@ -587,14 +607,20 @@ canvas {
   padding: 20px;
   border-radius: 15px;
   width: 590px;
+  transition: transform 0.3s;
 }
 
+.chart_2:hover {
+  transform: scale(0.95);
+}
 
 
 .push-notif-container {
   padding: 10px;
   width: 100%;
 }
+
+
 
 .push-notif-container img {
   width: 105%;
@@ -617,7 +643,13 @@ canvas {
 .active_users-container {
   width: 100%;
   height: 400px;
+  transition: transform 0.3s;
 }
+
+.active_users-container:hover {
+  transform: scale(0.95);
+}
+
 
 .active_users img {
   width: 101%;

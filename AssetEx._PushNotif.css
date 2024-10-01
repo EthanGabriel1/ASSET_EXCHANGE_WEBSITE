@@ -187,16 +187,11 @@ body {
     left: 0;
 }
 
-.main_content_div {
-    position: absolute;
-    width: 1625px;
-    height: 1179px;
-    top: 0;
-    left: 23px;
-}
+
 
 .frame {
-    justify-content: center;
+    outline: 1px violet solid;
+    padding: 50px 50px 50px 20px;
     position: absolute;
     width: calc(100vw - 270px);
     height: 70vw;
@@ -206,12 +201,156 @@ body {
     border-top-left-radius: 71.63px;
 }
 
-.main_content_img {
-    position: relative;
-    width: 83vw;
-    left: 40px;
-    top: 40px;
+
+
+.cards {
+    width: 100%;
+    padding: 35px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
 }
+
+.ic_add {
+    position: relative;
+    top: 0;
+    left: -15px;
+    width: 100px;
+    height: 100px;
+}
+
+.add-notif-card {
+    position: relative;
+    height: 350px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    border-radius: 50px 30px 50px 30px;
+    z-index: 1;
+}
+
+
+.add-notif-card h2 {
+   position: relative;
+   left: 0;
+   font-family: "Inter-SemiBold", Helvetica;
+   color: #3c3c3c;
+   font-size: 37px;
+   letter-spacing: 0;
+   font-weight: 600;
+   line-height: normal;
+}
+
+
+
+.add-notif-card::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(175deg, #00c6ff, #0072ff, #00ff72, #ff005e, #ff0000);
+    border-radius: inherit;
+    z-index: -1;
+    background-size: 400%;
+}
+
+.add-notif-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FCFCFC;
+    border-radius: inherit;
+    z-index: -1;
+    padding: 3px; /* Adjusts the space between the card and the gradient border */
+}
+
+.push-notif-card {
+    outline: 3px #ECEDF0 solid;
+    height: 350px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    border-radius: 50px;
+}
+
+
+.push-notif-card h2{
+    position: relative;
+   left: 0;
+   font-family: "Inter-SemiBold", Helvetica;
+   color: #3c3c3c;
+   font-size: 37px;
+   letter-spacing: 0;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.push-notif-card p {
+   position: relative;
+   left: 0;
+   bottom: -30px;
+   font-family: "Inter-Medium", Helvetica;
+   color: #a7a7a7;
+   font-size: 27px;
+   letter-spacing: 0;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.current-notif-card {
+    outline: 3px #ECEDF0 solid;
+    height: 350px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #02A9EB;
+    border-radius: 50px;
+}
+
+
+.current-notif-card h2{
+    position: relative;
+   left: 0;
+   font-family: "Inter-SemiBold", Helvetica;
+   color: #000000;
+   font-size: 37px;
+   letter-spacing: 0;
+   font-weight: 600;
+   line-height: normal;
+}
+
+
+.current-notif-card p {
+    position: relative;
+    left: 0;
+    bottom: -30px;
+    font-family: "Inter-Medium", Helvetica;
+    color: #2f2f2f;
+    font-size: 27px;
+    letter-spacing: 0;
+    font-weight: 600;
+    line-height: normal;
+ }
+
+
+.cards .card {
+    outline: 3px #ECEDF0 solid;
+    height: 300px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    border-radius: 20px;
+}
+
+
 
 /* Responsive CSS using media queries */
 @media (max-width: 1024px) {
