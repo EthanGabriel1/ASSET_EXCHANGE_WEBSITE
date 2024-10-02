@@ -11,50 +11,50 @@
     <title>Asset Exchange Admin Website</title>
 </head>
 <body>
+    <div class="container">
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
-            <span class="txt_AssetEx">AssetEx.</span>
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+                <span class="txt_AssetEx">AssetEx.</span>
+            </div>
+            <div class="search-bar">
+                <img class="ic_search" src="search.png" />
+                <input type="text" placeholder="Try searching 'demographic'">
+            </div>
+            <div class="user-settings">
+                <img class="ic_profile" src="profile-icon.png" alt="Profile">
+                <span class="txt_Username">Mark Echo</span>
+                <img class="ic_settings" src="settings-icon.png" alt="Settings">
+            </div>
         </div>
-        <div class="search-bar">
-            <img class="ic_search" src="search.png"/>
-            <input type="text" placeholder="Try searching 'demographic'">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Welcome to AssetEx Admin System</h1>
+            <img class="waving_hand" src="waving-hand(1) 1.png" alt="waving-hand">
+            <ul class="menu">
+                <div class="nav-section">General</div>
+                <li><a href="AssetExchange_Admin.html">Dashboard</a></li>
+                <li><a href="AssetEx._Storage.html">Storage</a></li>
+                <li><a href="AssetEx._PushNotif.html">Push Notification</a></li>
+                <div class="nav-section">Statistics</div>
+                <li><a href="AssetEx._SalesReport.html">Sales Report</a></li>
+                <div class="nav-section">Access</div>
+                <li><a href="#">User Control</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
         </div>
-        <div class="user-settings">
-            <img class="ic_profile" src="profile-icon.png" alt="Profile">
-            <span class="txt_Username">Mark Echo</span>
-            <img class="ic_settings" src="settings-icon.png" alt="Settings">
-        </div>
-    </div>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <h1>Welcome to AssetEx Admin System</h1>
-        <img class="waving_hand" src="waving-hand(1) 1.png" alt="waving-hand">
-        <ul class="menu">
-            <div class="nav-section">General</div>
-            <li><a href="AssetExchange_Admin.html">Dashboard</a></li>
-            <li><a href="AssetEx._Storage.html">Storage</a></li>
-            <li><a href="AssetEx._PushNotif.html">Push Notification</a></li>
-            <div class="nav-section">Statistics</div>
-            <li><a href="AssetEx._SalesReport.html">Sales Report</a></li>
-            <div class="nav-section">Access</div>
-            <li><a href="#">User Control</a></li>
-            <li><a href="#">Reports</a></li>
-        </ul>
-    </div>
+        <!-- Main Content -->
+        <main class="main-content">
 
+            <!-- Dashboard Stats -->
+            <section class="dashboard-stats">
+                
+                <img src="Add_Folder.svg" alt="Add Folder Icon">
 
-    <!-- Main Content -->
-    <div class="main-content">
-            <div class="upper_part">
-                <div class="add_folder_container">
-                    <img src="add-folder-img.png" alt="add-folder">
-                </div>
-
-                <div class="all_asset_container">
                 <div class="card">
                     <div class="card-header">
                         <div class="icon-text-wrapper">
@@ -69,111 +69,46 @@
                         <div class="text-line-3"></div>
                     </div>
                 </div>
-            </div>
-    </div>
+            </section>
 
-    <div class="table-container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Asset Name</th>
-                    <th class="th-date">Date</th>
-                    <th class="th-filesize">File Size</th>
-                    <th>Uploaded by</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 96161.png</td>
-                    <td>October 31, 2017</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user1.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 700.png</td>
-                    <td>September 9, 2013</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user2.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 75062.png</td>
-                    <td>February 9, 2015</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user3.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 86248.png</td>
-                    <td>November 7, 2017</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user4.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 30909.png</td>
-                    <td>May 6, 2012</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user5.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 3069.png</td>
-                    <td>August 2, 2013</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user6.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 19800.png</td>
-                    <td>August 7, 2017</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user7.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 25187.png</td>
-                    <td>March 23, 2013</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user8.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 25187.png</td>
-                    <td>March 23, 2013</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user9.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 417.png</td>
-                    <td>August 24, 2013</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user10.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 93349.png</td>
-                    <td>December 19, 2013</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_user11.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 26478.png</td>
-                    <td>May 31, 2015</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_john.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <tr>    
-                    <td class="asset-name"><img src="ic_png.png" alt="File Icon" class="file-icon"> 5345.png</td>
-                    <td>September 3, 2015</td>
-                    <td class="td-5MB">5MB</td>
-                    <td><img src="ic_mika.png" alt="User Image" class="user-avatar"></td>
-                </tr>
-                <!-- Add more rows as necessary -->
-            </tbody>
-        </table>
-        
-    </div>
+            <!-- Latest Bookings Table with Storage Details SVG -->
+            <section class="latest-bookings-storage">
+                <div class="bookings-table">
+                    <h2 class="latestbooking-title">Latest Bookings</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Asset Name</th>
+                                <th>Date</th>
+                                <th>File Size</th>
+                                <th>Uploaded by</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>96161.png</td>
+                                <td>October 31, 2017</td>
+                                <td>5MB</td>
+                                <td><img src="ic_user1.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td>700.png</td>
+                                <td>September 9, 2013</td>
+                                <td>5MB</td>
+                                <td><img src="ic_user2.png" alt=""></td>
+                            </tr>
+                            <!-- Add more rows as needed -->
+                        </tbody>
+                    </table>
+                </div>
 
-    <div class="group-wrapper">
-        <img class="group-3" src="Storage_details.svg" />
-    </div>
+                <!-- Storage Details SVG beside the table -->
+                <div class="storage-details-svg">
+                    <img src="Storage_details.svg" alt="Storage Details">
+                </div>
+            </section>
 
-
+        </main>
     </div>
-    </body>
-    </html>
-	
-	
+</body>
+</html>
